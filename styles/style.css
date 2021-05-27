@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 20px;
+    background: url("../img/line-death-star-icon-isolated-seamless-pattern-white-background-vector-line-death-star-icon-isolated-seamless-pattern-white-201790938.jpg");
+    background-repeat: repeat repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav>img {
+    max-width: 7%;
+    height: auto;
+}
+
+.nav_items>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_items>ul>li {
+    list-style: none;
+}
+
+.nav_items>ul>li:first-child{
+    padding-right: 10px;
+}
+
+.nav_items>ul>li>a {
+    text-decoration: none;
+}
+
+.banner {
+    background: url("../img/banner.jpg");
+    background-position: center;
+    padding: 80px;
+    color: white;
+    font-size: 30px;
+}
+
+.banner_items {
+    background-color: #000;
+}
+
+.banner_items>h2 {
+    font-family: 'Monoton', cursive;
+}
+
+.content_items{
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.content_items>h2 {
+    font-family: 'Monoton', cursive;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.footer_items {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav {
+    padding-right: 100px;
+}
+
+.footer-nav_items>ul>li {
+    list-style: none;
+}
+
+.footer-nav_items>ul>li>a {
+    text-decoration: none;
+}
+
+.footer_info {
+    max-width: 200px;
+    font-size: 15px;
+   
+}
+
+.social_links {
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.social_links>a {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fa-instagram {
+    color: rgb(127, 23, 131);
+}
+
+.fa-telegram {
+    color: rgb(41, 77, 155);
+}
+
+.fa-twitter {
+    color: rgb(26, 50, 187);
+}
